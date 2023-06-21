@@ -55,5 +55,6 @@ require("lazy").setup({
         dependencies = {'nvim-lua/plenary.nvim'}
   }, -- for easy search
   {'jose-elias-alvarez/null-ls.nvim'}, -- lsp
+  --{'OmniSharp/omnisharp-vim'},
 
 })
