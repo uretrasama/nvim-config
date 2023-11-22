@@ -2,7 +2,8 @@ vim.opt.termguicolors = true
 
 function SetColor(color)
 	--color = color or "crimson_moonlight"
-  	color = color or "sakura"
+	color = color or "poimandres"
+  --color = color or "sakura"
 	--color = color or "nord"
 	vim.cmd.colorscheme(color)
 

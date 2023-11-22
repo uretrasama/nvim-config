@@ -33,7 +33,7 @@ require("lazy").setup({
 
   {
 	"nvim-neo-tree/neo-tree.nvim",
-        	branch = "v2.x",
+        	branch = "v3.x",
         	dependencies = {
             		"nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons",
             		"MunifTanjim/nui.nvim", "s1n7ax/nvim-window-picker"
@@ -51,10 +51,17 @@ require("lazy").setup({
   {"williamboman/mason.nvim", build = ":MasonUpdate"}, -- for download lsp-servers
   {
         'nvim-telescope/telescope.nvim',
-        tag = '0.1.1',
+        tag = '0.1.3',
         dependencies = {'nvim-lua/plenary.nvim'}
   }, -- for easy search
   {'jose-elias-alvarez/null-ls.nvim'}, -- lsp
   --{'OmniSharp/omnisharp-vim'},
-
+  {'olivercederborg/poimandres.nvim'}, -- colorscheme
+  {
+      'numToStr/Comment.nvim',
+      opts = {
+          -- add any options here
+      },
+      lazy = false,
+  },
 })
