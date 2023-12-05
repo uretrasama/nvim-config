@@ -1,10 +1,10 @@
 vim.opt.termguicolors = true
 
 function SetColor(color)
-	--color = color or "crimson_moonlight"
+	-- color = color or "crimson_moonlight"
 	color = color or "poimandres"
-  --color = color or "sakura"
-	--color = color or "nord"
+  -- color = color or "sakura"
+	-- color = color or "nord"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
